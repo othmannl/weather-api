@@ -1,0 +1,68 @@
+/* Algemene styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, #87CEEB, #FFF5B7);
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FF8C00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #FFD700;
+}
+
+label, select, button {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+/* Dropdown en knop styling */
+select, button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #FF8C00;
+    background-color: #FFF5B7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+select:hover, button:hover {
+    background-color: #FFD700;
+}
+
+/* Resultaatweergave styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Zonnig icoon styling */
+.sun-icon {
+    font-size: 3rem;
+    color: #FFD700;
+    margin-top: 15px;
+    animation: rotateSun 6s linear infinite;
+}
+
+/* Animaties */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes rotateSun {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
