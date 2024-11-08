@@ -17,8 +17,13 @@
             <option value="Marrakesh" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Marrakesh') echo 'selected'; ?>>Marrakesh</option>
             <option value="Oujda" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Oujda') echo 'selected'; ?>>Oujda</option>
             <option value="Tangier" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Tangier') echo 'selected'; ?>>Tangier</option>
+            <option value="Sale" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Sale') echo 'selected'; ?>>Sale</option>
+            <option value="Khouribga" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Khouribga') echo 'selected'; ?>>Khouribga</option>
+            <option value="Agadir" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Agadir') echo 'selected'; ?>>Agadir</option>
+            <option value="Larache" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Larache') echo 'selected'; ?>>Larache</option>
+            <option value="Tetouan" <?php if(isset($_POST['city']) && isset($_POST['city']) == 'Tetouan') echo 'selected'; ?>>Tetouan</option>
 
-            
+
         </select>
         <button type="submit" name="getWeather">Get temperature</button>
     </form>
